@@ -1,0 +1,15 @@
+Ready to begin John Walker's floating point accuracy
+and performance benchmark.  10000000 iterations will be made.
+
+
+Measured run time in seconds should be divided by 10000
+to normalise for reporting results.  For archival results,
+adjust iteration count so the benchmark runs about five minutes.
+
+Start time is 1498651346.000000 sec, 9277088.000000 nano sec
+Stop  time is 1498651379.000000 sec, 233842283.000000 nano sec
+Total nano seconds:  33224565195.000000
+Normalization of nano seconds: 3322456.519500
+Seconds: 0.003322
+
+No errors in results.

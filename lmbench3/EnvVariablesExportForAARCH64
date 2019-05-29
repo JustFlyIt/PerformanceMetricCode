@@ -1,0 +1,16 @@
+export TARGET=linux
+export OS=linux-arm
+export LDLIBS='--sysroot=/opt/iSpaceOS/2018.1/sysroots/aarch64-ispace-linux -lm'
+export CC=/opt/iSpaceOS/2018.1/sysroots/x86_64-ispaceossdk-linux/usr/bin/aarch64-ispace-linux/aarch64-ispace-linux-gcc
+export CFLAGS='-I/opt/iSpaceOS/2018.1/sysroots/aarch64-ispace-linux/usr/include/c++/7.3.0 -I/opt/iSpaceOS/2018.1/sysroots/aarch64-ispace-linux/usr/include/c++/7.3.0/aarch64-ispace-linux -I/opt/iSpaceOS/2018.1/sysroots/aarch64-ispace-linux/usr/include --sysroot=/opt/iSpaceOS/2018.1/sysroots/aarch64-ispace-linux'
+export CC_LINKER_FLAGS='--sysroot=/opt/iSpaceOS/2018.1/sysroots/aarch64-ispace-linux -ftest-coverage -fprofile-arcs -lstdc++ -lm -o'
+export AR=/opt/iSpaceOS/2018.1/sysroots/x86_64-ispaceossdk-linux/usr/bin/aarch64-ispace-linux/aarch64-ispace-linux-ar
+export RANLIB=/opt/iSpaceOS/2018.1/sysroots/x86_64-ispaceossdk-linux/usr/bin/aarch64-ispace-linux/aarch64-ispace-linux-ranlib
+
+export OS=riscv
+export LDLIBS='--sysroot=/opt/iSpaceOS/2018.1/sysroots/riscv64-ispace-linux -lm'
+export CC=/opt/iSpaceOS/2018.1/sysroots/x86_64-ispaceossdk-linux/usr/bin/riscv64-ispace-linux/riscv64-ispace-linux-gcc
+export CFLAGS='-I/opt/iSpaceOS/2018.1/sysroots/riscv64-ispace-linux/usr/include/c++/7.3.0 -I/opt/iSpaceOS/2018.1/sysroots/riscv64-ispace-linux/usr/include/c++/7.3.0/riscv64-ispace-linux -I/opt/iSpaceOS/2018.1/sysroots/riscv64-ispace-linux/usr/include --sysroot=/opt/iSpaceOS/2018.1/sysroots/riscv64-ispace-linux'
+export CC_LINKER_FLAGS='--sysroot=/opt/iSpaceOS/2018.1/sysroots/riscv64-ispace-linux -ftest-coverage -fprofile-arcs -lstdc++ -lm -o'
+export AR=/opt/iSpaceOS/2018.1/sysroots/x86_64-ispaceossdk-linux/usr/bin/riscv64-ispace-linux/riscv64-ispace-linux-ar
+export RANLIB=/opt/iSpaceOS/2018.1/sysroots/x86_64-ispaceossdk-linux/usr/bin/riscv64-ispace-linux/riscv64-ispace-linux-ranlib

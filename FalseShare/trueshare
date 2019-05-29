@@ -1,0 +1,156 @@
+execve("./FalseSharingTestBoard", ["./FalseSharingTestBoard", "true"], [/* 17 vars */]) = 0
+brk(NULL)                               = 0x2a558000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7b6ce000
+faccessat(AT_FDCWD, "/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/aarch64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "aarch64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ion-3.6.1/lib/tls/aarch64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/opt/ion-3.6.1/lib/tls/aarch64", 0x7ffa0e9cf0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ion-3.6.1/lib/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/opt/ion-3.6.1/lib/tls", 0x7ffa0e9cf0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ion-3.6.1/lib/aarch64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/opt/ion-3.6.1/lib/aarch64", 0x7ffa0e9cf0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ion-3.6.1/lib/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/opt/ion-3.6.1/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=38036, ...}) = 0
+mmap(NULL, 38036, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7b6c4000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib64/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0000\35\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=27400, ...}) = 0
+mmap(NULL, 90888, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7b690000
+mprotect(0x7f7b696000, 61440, PROT_NONE) = 0
+mmap(0x7f7b6a5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7f7b6a5000
+close(3)                                = 0
+openat(AT_FDCWD, "tls/aarch64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "aarch64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ion-3.6.1/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\320[\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=97592, ...}) = 0
+mmap(NULL, 177048, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7b664000
+mprotect(0x7f7b67b000, 61440, PROT_NONE) = 0
+mmap(0x7f7b68a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f7b68a000
+mmap(0x7f7b68c000, 13208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7b68c000
+close(3)                                = 0
+openat(AT_FDCWD, "tls/aarch64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "aarch64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ion-3.6.1/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\320S\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=641736, ...}) = 0
+mmap(NULL, 705144, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7b5b7000
+mprotect(0x7f7b653000, 61440, PROT_NONE) = 0
+mmap(0x7f7b662000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9b000) = 0x7f7b662000
+close(3)                                = 0
+openat(AT_FDCWD, "tls/aarch64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "aarch64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ion-3.6.1/lib/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\320\301\10\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1553648, ...}) = 0
+mmap(NULL, 1630520, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7b428000
+mprotect(0x7f7b597000, 65536, PROT_NONE) = 0
+mmap(0x7f7b5a7000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16f000) = 0x7f7b5a7000
+mmap(0x7f7b5b3000, 12600, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7b5b3000
+close(3)                                = 0
+openat(AT_FDCWD, "tls/aarch64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "aarch64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ion-3.6.1/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0000*\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=72616, ...}) = 0
+mmap(NULL, 136848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7b406000
+mprotect(0x7f7b417000, 65536, PROT_NONE) = 0
+mmap(0x7f7b427000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x11000) = 0x7f7b427000
+close(3)                                = 0
+openat(AT_FDCWD, "tls/aarch64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "aarch64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/opt/ion-3.6.1/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0x\364\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1267360, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7b404000
+mmap(NULL, 1340040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7b2bc000
+mprotect(0x7f7b3eb000, 61440, PROT_NONE) = 0
+mmap(0x7f7b3fa000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12e000) = 0x7f7b3fa000
+mmap(0x7f7b400000, 12936, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7b400000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7b2ba000
+mprotect(0x7f7b3fa000, 16384, PROT_READ) = 0
+mprotect(0x7f7b662000, 4096, PROT_READ) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7b2b8000
+mprotect(0x7f7b5a7000, 40960, PROT_READ) = 0
+mprotect(0x7f7b68a000, 4096, PROT_READ) = 0
+mprotect(0x7f7b6a5000, 4096, PROT_READ) = 0
+mprotect(0x7f7b6d2000, 4096, PROT_READ) = 0
+munmap(0x7f7b6c4000, 38036)             = 0
+set_tid_address(0x7f7b2ba0d0)           = 2215
+set_robust_list(0x7f7b2ba0e0, 24)       = 0
+rt_sigaction(SIGRTMIN, {0x7f7b6695e0, [], SA_SIGINFO}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f7b6696d8, [], SA_RESTART|SA_SIGINFO}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL)                               = 0x2a558000
+brk(0x2a58a000)                         = 0x2a58a000
+fstat(1, {st_mode=S_IFREG|0644, st_size=8754, ...}) = 0
+mmap(NULL, 8388608, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f7aab8000
+mprotect(0x7f7aab8000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f7b2b6af0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f7b2b72b0, tls=0x7f7b2b78d0, child_tidptr=0x7f7b2b72b0) = 2216
+futex(0x7f7b2b72b0, FUTEX_WAIT, 2216, NULL) = 0
+openat(AT_FDCWD, "/home/snydedo/workspacePerformance/FalseSharingTestBoard/FalseSharing -O3/src/elapsedTime.gcda", O_RDWR|O_CREAT, 0666) = 3
+fcntl(3, F_SETLKW, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+fcntl(3, F_GETFL)                       = 0x20002 (flags O_RDWR|0x20000)
+fstat(3, {st_mode=S_IFREG|0644, st_size=13988, ...}) = 0
+read(3, "adcg*206\r.\35d\0\0\0\243*\0\0\0;g\325Q#\0\0\0\1\0\0\0"..., 4096) = 4096
+read(3, "\0\341\365\5\0\0\0\0\0\341\365\5\0\0\0\0\0\0\0\2439\0\0\0F\v\366%&\0\0\0"..., 4096) = 4096
+read(3, "\21\226f\353,\0\0\0\1\0\0\0\23\10\366\5\0\0\0\0\0\341\365\5\0\0\0\0\0\341\365\5"..., 4096) = 4096
+read(3, "\0\0\0\0\0\0\0\243/\0\0\0\0\325\212\222/\0\0\0\2\0\0\0{\1\316\35\0\0\0\0"..., 4096) = 1700
+read(3, "", 2396)                       = 0
+lseek(3, 0, SEEK_SET)                   = 0
+lseek(3, 13644, SEEK_SET)               = 13644
+write(3, "\0\0\0\2439\0\0\0QR\342\3755\0\0\0\n\0\0\0\206\7\6\225\0\0\0\0\0\341\365\5"..., 344) = 344
+close(3)                                = 0
+openat(AT_FDCWD, "/home/snydedo/workspacePerformance/FalseSharingTestBoard/FalseSharing -O3/src/FalseSharingTestBoard.gcda", O_RDWR|O_CREAT, 0666) = 3
+fcntl(3, F_SETLKW, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+fcntl(3, F_GETFL)                       = 0x20002 (flags O_RDWR|0x20000)
+fstat(3, {st_mode=S_IFREG|0644, st_size=856, ...}) = 0
+read(3, "adcg*206\245\0\331h\0\0\0\2439\0\0\0QR\342\3755\0\0\0\t\0\0\0"..., 4096) = 856
+read(3, "", 3240)                       = 0
+lseek(3, 0, SEEK_SET)                   = 0
+lseek(3, 12, SEEK_SET)                  = 12
+write(3, "\0\0\0\2439\0\0\0QR\342\3755\0\0\0\n\0\0\0\206\7\6\225\0\0\0\0\0\341\365\5"..., 756) = 756
+close(3)                                = 0
+write(1, "False Sharing Test Started...\n\na"..., 328False Sharing Test Started...
+
+argc = 2
+argv[0] = ./FalseSharingTestBoard 
+argv[1] = true 
+Scalable - true
+
+Launching Threads for Scalable Example
+
+Number of odd numbers in intMatrix: 50000000
+Number of processing threads: 1
+Time to process: 559.633397 
+
+Launching Threads for Scalable Example Ended
+
+False Sharing Test Ended.
+
+) = 328
+exit_group(0)                           = ?
++++ exited with 0 +++
